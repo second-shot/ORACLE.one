@@ -6,7 +6,7 @@ export default function Landing() {
       <section className="landing-hero" aria-label="Introduction">
         <p className="landing-eyebrow">V5 · Active</p>
         <h1 className="landing-heading">
-          ORA-CALL is the system.<br />
+          Oracle is the system.<br />
           <em>Mia</em> is the operator.
         </h1>
         <p className="landing-sub">
@@ -15,14 +15,14 @@ export default function Landing() {
         </p>
         <div className="landing-actions">
           <Link to="/run" className="landing-btn landing-btn--primary">
-            Enter ORA-CALL
+            Enter Oracle
           </Link>
           <Link to="/home" className="landing-btn landing-btn--ghost">
             Living Home
           </Link>
         </div>
         <p className="landing-ground">
-          ORA-CALL turns raw input into structured actions, proposals, and archived decisions.
+          Oracle turns raw input into structured actions, proposals, and archived decisions.
         </p>
       </section>
     </main>

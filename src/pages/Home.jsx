@@ -1,8 +1,7 @@
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
-import { STORAGE_KEYS } from "../lib/storageKeys.js";
 
-const ARCHIVE_KEY = STORAGE_KEYS.archive;
+const ARCHIVE_KEY = "oracle-v5-archive";
 
 const STATIC_MISSIONS = [
   { id: "MIA-001", title: "State of Oracle Audit", status: "done" },
@@ -88,7 +87,7 @@ export default function Home() {
           <p className="home-empty">
             No outputs yet.{" "}
             <Link to="/run" className="home-link">
-              Run ORA-CALL →
+              Run Oracle →
             </Link>
           </p>
         ) : (
