@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oracle To-Do — Task Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="todo-container">
+    <header class="todo-header">
+      <h1>Oracle To-Do</h1>
+      <p class="todo-subtitle">Structured task management with local persistence</p>
+    </header>
+
+    <main class="todo-main">
+      <!-- Input Section -->
+      <section class="input-section">
+        <form id="taskForm" class="task-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="taskInput"
+              class="task-input"
+              placeholder="Add a new task..."
+              autocomplete="off"
+              required
+            />
+            <select id="prioritySelect" class="priority-select">
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+            </select>
+            <button type="submit" class="add-button">Add Task</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Filter Section -->
+      <section class="filter-section">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="active">Active</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+        <div class="sort-buttons">
+          <button class="sort-btn" data-sort="date">By Date</button>
+          <button class="sort-btn" data-sort="priority">By Priority</button>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="stats-section">
+        <div class="stat">
+          <span class="stat-label">Total:</span>
+          <span class="stat-value" id="totalCount">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Active:</span>
+          <span class="stat-value active" id="activeCount">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Completed:</span>
+          <span class="stat-value completed" id="completedCount">0</span>
+        </div>
+      </section>
+
+      <!-- Tasks List -->
+      <section class="tasks-section">
+        <ul id="tasksList" class="tasks-list">
+          <li class="empty-state">
+            <p>No tasks yet. Add one to get started!</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Actions Section -->
+      <section class="actions-section">
+        <button id="clearCompletedBtn" class="action-btn danger">Clear Completed</button>
+        <button id="exportBtn" class="action-btn">Export Tasks</button>
+        <button id="importBtn" class="action-btn">Import Tasks</button>
+        <input type="file" id="importFile" accept=".json" style="display: none;" />
+      </section>
+    </main>
+
+    <footer class="todo-footer">
+      <p>Tasks are automatically saved to local storage.</p>
+    </footer>
+  </div>
+
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
