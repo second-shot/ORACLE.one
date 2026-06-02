@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink, Outlet } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import { ControlPanel } from "./components/ControlPanel.jsx";
 import Entry from "./pages/Entry.jsx";
 import Run from "./pages/Run.jsx";
@@ -75,6 +76,7 @@ export default function App() {
           />
         </Route>
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
