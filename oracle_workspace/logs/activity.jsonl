@@ -1,0 +1,11 @@
+{"event": "object_captured", "id": "9a393886bdb74f3ab82bc64202f19783", "domain": "unclassified", "timestamp": "2026-06-09T18:20:22.446235+00:00"}
+{"event": "object_routed", "id": "9a393886bdb74f3ab82bc64202f19783", "workflow": "unrouted", "priority": "high", "timestamp": "2026-06-09T18:20:22.452222+00:00"}
+{"event": "draft_approved", "filename": "9a393886bdb74f3ab82bc64202f19783.json", "timestamp": "2026-06-09T18:20:22.454109+00:00"}
+{"event": "object_captured", "id": "d76d2d1eabc840d98b0af7a4d058ae75", "domain": "resource_recovery", "timestamp": "2026-06-09T18:25:47.984774+00:00"}
+{"event": "object_routed", "id": "d76d2d1eabc840d98b0af7a4d058ae75", "workflow": "recovery_intake", "priority": "high", "timestamp": "2026-06-09T18:25:47.989353+00:00"}
+{"event": "object_captured", "id": "1446bbe211624992998edaa92b6dcc0a", "domain": "technical", "timestamp": "2026-06-09T18:25:47.990464+00:00"}
+{"event": "object_routed", "id": "1446bbe211624992998edaa92b6dcc0a", "workflow": "repair_log", "priority": "high", "timestamp": "2026-06-09T18:25:47.991543+00:00"}
+{"event": "object_captured", "id": "5fcd2b48727d4083ab463018e98415ed", "domain": "community", "timestamp": "2026-06-09T18:25:47.992317+00:00"}
+{"event": "object_routed", "id": "5fcd2b48727d4083ab463018e98415ed", "workflow": "community_support", "priority": "high", "timestamp": "2026-06-09T18:25:47.993106+00:00"}
+{"event": "object_captured", "id": "19b5258b4c554732882e203ccc73d950", "domain": "project", "timestamp": "2026-06-09T18:25:47.993699+00:00"}
+{"event": "object_routed", "id": "19b5258b4c554732882e203ccc73d950", "workflow": "project_brief", "priority": "high", "timestamp": "2026-06-09T18:25:47.994683+00:00"}

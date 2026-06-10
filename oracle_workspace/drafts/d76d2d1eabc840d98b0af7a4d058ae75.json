@@ -1,0 +1,27 @@
+{
+  "id": "d76d2d1eabc840d98b0af7a4d058ae75",
+  "created_at": "2026-06-09T18:25:47.984774+00:00",
+  "updated_at": "2026-06-09T18:25:47.989353+00:00",
+  "domain": "resource_recovery",
+  "input_type": "text",
+  "raw": "Found a vintage Technics SL-1200 turntable at a house clearance in Hackney, working, original box",
+  "normalised": "",
+  "compressed": "",
+  "tags": [
+    "clearance",
+    "house clearance",
+    "turntable",
+    "found",
+    "vintage"
+  ],
+  "score": {
+    "importance": 8,
+    "urgency": 6,
+    "quality": 7,
+    "composite": 7.1
+  },
+  "status": "routed",
+  "workflow": "recovery_intake",
+  "output": null,
+  "metadata": {}
+}

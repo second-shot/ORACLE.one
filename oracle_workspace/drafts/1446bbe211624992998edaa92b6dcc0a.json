@@ -1,0 +1,26 @@
+{
+  "id": "1446bbe211624992998edaa92b6dcc0a",
+  "created_at": "2026-06-09T18:25:47.990464+00:00",
+  "updated_at": "2026-06-09T18:25:47.991543+00:00",
+  "domain": "technical",
+  "input_type": "text",
+  "raw": "Need to fix the rear brake and re-grease the bottom bracket bearing on the salvaged road bike",
+  "normalised": "",
+  "compressed": "",
+  "tags": [
+    "bike",
+    "fix",
+    "bearing",
+    "brake"
+  ],
+  "score": {
+    "importance": 6,
+    "urgency": 7,
+    "quality": 6,
+    "composite": 6.3
+  },
+  "status": "routed",
+  "workflow": "repair_log",
+  "output": null,
+  "metadata": {}
+}
